@@ -1,0 +1,13 @@
+<div data-role="page" data-theme="b">
+
+  <div data-role="header" data-position="inline">
+    <h1>Http通信機能</h1>
+  </div>
+
+  <div data-role="content">
+      <a href="<%= url_for(:action => :get_access) %>" data-role="button">GETでアクセスする</a>
+      <a href="<%= url_for(:action => :post_access) %>" data-role="button">POSTでアクセスする</a>
+      <a href="<%= url_for(:action => :download) %>" data-role="button">ダウンロード</a>
+      <a href="<%= url_for(:action => :upload) %>" data-role="button">アップロード</a>
+  </div>
+</div>

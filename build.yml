@@ -1,0 +1,24 @@
+#sdk: "/Users/Ryota/.rvm/gems/ruby-1.9.3-p194@rhodes/gems/rhodes-3.3.3"
+sdkversion: 3.3.3
+name: http_connect
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+  BundleIdentifier: com.rhomobile.httpconnect
+  BundleURLScheme: httpconnect
+wp:
+  productid: '4c391890-bcd4-012f-2510-3c07542aa8a3'
+symbian:
+  uid: '0xe2a987f3'
+android:
+  version: 2.1
+
+extensions: ["json", "another-extension"]

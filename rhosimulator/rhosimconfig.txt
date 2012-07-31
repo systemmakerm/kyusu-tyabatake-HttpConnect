@@ -1,0 +1,9 @@
+rhodes_path='/Users/Ryota/.rvm/gems/ruby-1.9.3-p194@rhodes/gems/rhodes-3.3.3'
+app_version='1.0'
+app_name='http_connect'
+reload_app_changes=1
+debug_port=
+debug_host='127.0.0.1'
+platform='android'
+os_version='2.1'
+ext_path=/Users/Ryota/.rvm/gems/ruby-1.9.3-p194@rhodes/gems/rhodes-3.3.3/lib/extensions/json;
